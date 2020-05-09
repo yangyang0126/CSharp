@@ -1,0 +1,10 @@
+D:\GitHub\CSharp\ScreenSaver\bin\Debug\ScreenSaver.exe.config
+D:\GitHub\CSharp\ScreenSaver\bin\Debug\ScreenSaver.exe
+D:\GitHub\CSharp\ScreenSaver\bin\Debug\ScreenSaver.pdb
+D:\GitHub\CSharp\ScreenSaver\obj\Debug\ScreenSaver.csprojAssemblyReference.cache
+D:\GitHub\CSharp\ScreenSaver\obj\Debug\ScreenSaver.Form1.resources
+D:\GitHub\CSharp\ScreenSaver\obj\Debug\ScreenSaver.Properties.Resources.resources
+D:\GitHub\CSharp\ScreenSaver\obj\Debug\ScreenSaver.csproj.GenerateResource.cache
+D:\GitHub\CSharp\ScreenSaver\obj\Debug\ScreenSaver.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp\ScreenSaver\obj\Debug\ScreenSaver.exe
+D:\GitHub\CSharp\ScreenSaver\obj\Debug\ScreenSaver.pdb
