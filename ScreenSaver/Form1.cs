@@ -22,7 +22,7 @@ namespace ScreenSaver
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            
+
             label1.Text = DateTime.Now.ToLongTimeString().ToString();
             this.label1.Left += deltX;
             this.label1.Top += deltY;
@@ -31,7 +31,6 @@ namespace ScreenSaver
             if (this.label1.Left < 0 || this.label1.Left + this.label1.Width > this.Width)
                 deltX = -deltX;
         }
-
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             Application.Exit();

@@ -1,0 +1,10 @@
+D:\GitHub\CSharp\MoveBlock\obj\Debug\MoveBlock.csprojAssemblyReference.cache
+D:\GitHub\CSharp\MoveBlock\obj\Debug\MoveBlock.Form1.resources
+D:\GitHub\CSharp\MoveBlock\obj\Debug\MoveBlock.Properties.Resources.resources
+D:\GitHub\CSharp\MoveBlock\obj\Debug\MoveBlock.csproj.GenerateResource.cache
+D:\GitHub\CSharp\MoveBlock\obj\Debug\MoveBlock.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp\MoveBlock\bin\Debug\MoveBlock.exe.config
+D:\GitHub\CSharp\MoveBlock\bin\Debug\MoveBlock.exe
+D:\GitHub\CSharp\MoveBlock\bin\Debug\MoveBlock.pdb
+D:\GitHub\CSharp\MoveBlock\obj\Debug\MoveBlock.exe
+D:\GitHub\CSharp\MoveBlock\obj\Debug\MoveBlock.pdb

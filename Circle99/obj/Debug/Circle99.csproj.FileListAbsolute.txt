@@ -1,0 +1,10 @@
+D:\GitHub\CSharp\Circle99\bin\Debug\Circle99.exe.config
+D:\GitHub\CSharp\Circle99\bin\Debug\Circle99.exe
+D:\GitHub\CSharp\Circle99\bin\Debug\Circle99.pdb
+D:\GitHub\CSharp\Circle99\obj\Debug\Circle99.csprojAssemblyReference.cache
+D:\GitHub\CSharp\Circle99\obj\Debug\Circle99.Form1.resources
+D:\GitHub\CSharp\Circle99\obj\Debug\Circle99.Properties.Resources.resources
+D:\GitHub\CSharp\Circle99\obj\Debug\Circle99.csproj.GenerateResource.cache
+D:\GitHub\CSharp\Circle99\obj\Debug\Circle99.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharp\Circle99\obj\Debug\Circle99.exe
+D:\GitHub\CSharp\Circle99\obj\Debug\Circle99.pdb
