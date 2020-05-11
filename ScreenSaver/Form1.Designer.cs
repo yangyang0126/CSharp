@@ -44,7 +44,7 @@
             this.label1.BackColor = System.Drawing.Color.CadetBlue;
             this.label1.Font = new System.Drawing.Font("DejaVu Sans Mono", 200.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(122, 148);
+            this.label1.Location = new System.Drawing.Point(12, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(935, 311);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1225, 702);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
