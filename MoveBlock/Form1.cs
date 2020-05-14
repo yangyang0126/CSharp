@@ -18,7 +18,9 @@ namespace MoveBlock
         }
 
         const int N = 4;// 按钮的行数、列数
-        Button[,] buttons = new Button[N, N]; 
+        Button[,] buttons = new Button[N, N];
+        DateTime timeNow = new DateTime();
+        TimeSpan timeCount = new TimeSpan();
 
         void GenerateAllButtons()
         {
@@ -41,7 +43,7 @@ namespace MoveBlock
                     buttons[r, c] = btn;
                     this.Controls.Add(btn);
                 }
-            buttons[N - 1, N - 1].Visible = false;            
+            buttons[N - 1, N - 1].Visible = false;
         }
 
         // 查找隐藏按钮
@@ -80,12 +82,12 @@ namespace MoveBlock
             for (int r = 0; r < N; r++)
                 for (int c = 0; c < N; c++)
                 {
-                    if (buttons[r, c].Text!=(r*N+c+1).ToString())
-                        return false;                   
+                    if (buttons[r, c].Text != (r * N + c + 1).ToString())
+                        return false;
                 }
             return true;
         }
-        
+
 
         private void Btn_Click(object sender, EventArgs e)
         {
@@ -101,6 +103,7 @@ namespace MoveBlock
 
             if (ResultIsOk())
             {
+                this.timer1.Stop();
                 MessageBox.Show("Success!");
             }
         }
@@ -133,11 +136,20 @@ namespace MoveBlock
         private void btnStart_Click(object sender, EventArgs e)
         {
             Shuffle();  // 打乱顺序
+            this.timer1.Start();
+            timeNow = DateTime.Now;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             GenerateAllButtons();  // 产生所有按钮
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timeCount = DateTime.Now - timeNow;
+            label1.Text = string.Format("{0:00}:{1:00}:{2:00}", timeCount.Hours, timeCount.Minutes, timeCount.Seconds);
+        }
     }
+
 }
